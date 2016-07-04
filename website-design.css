@@ -1,0 +1,353 @@
+/*
+Author: Simeng Yang
+Project: ICS4U Final Project - Database-Driven Website with PHP & MySQL
+Item: CSS for website.HTML
+Desc: Has formatting for containers (ID selector = #), classes (class selector = .)
+and specific HTML elements affected by a class (p.x for <p> elements etc.)
+Should be relatively straightforward; all selectors are identified explicitly in website.HTML
+*/
+
+/* Non-article styling */
+
+	html {
+    height: 100%;
+	}
+	
+	body {
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+	background: linear-gradient(to bottom, #fff, #cceeff) fixed; 
+	}
+	
+	#pageWrapper {
+		font: 14px/1.4 'PT Sans Narrow', sans-serif;
+		width: 1000px;
+		margin-left: auto;
+		margin-right: auto;
+		background-repeat: no-repeat;
+		background: linear-gradient(to bottom, #fff, #cceeff) fixed; 
+	}
+	
+	#header {
+		height: 250px;
+		width: 800px;
+		text-align: center;
+		margin: -0.5em 0 0.5em 0;
+		color: #471F37;
+		font-weight: normal;
+		font-family: 'Lobster', cursive;   
+		font-size: 20px;
+		line-height: 42px;
+		text-transform: uppercase;
+
+		margin: 0;
+		background-repeat: no-repeat;
+		background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#cceeff)) fixed;
+	}
+	
+	#logo {
+		position: relative;
+		left: 15px;
+	}
+	
+	#blogSlogan {
+		position: relative;
+		font-family: 'PT Sans Narrow', sans-serif; 
+		width: 240px;
+		left: 675px;
+		top: -124px;
+		color: #343434;
+		font-weight: normal;
+		font-size: 12px;
+	}
+	
+	#searchBox {
+		position: relative;
+		left: 750px;
+		top: -150px;
+		width: 250px;
+	}
+	
+	#contentWrapper {
+		background-color: #471F37; 
+		float: left;
+		width: 1000px;
+	}
+	
+	#leftSidebar {
+		float: left;
+	}
+	
+	iframe {    
+		display:block;
+		margin: 0 auto;
+	}
+	
+	IMG.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto }
+	
+	.leftContainer {
+		background-color: #FFF;
+		border: 3px solid #000;
+		margin: 10px;
+		margin-right: 3px;
+		width: 177px;
+		height: 271px;
+		padding: 2px;
+	}
+	
+	.bannerTitle {
+		font: 14px/1.4 'PT Sans Narrow', sans-serif;
+		background-color: #471F37;
+		color: #FFF;
+		width: 96px;
+		height: 26px;
+		text-align: right;
+		padding-right: 6px;
+		position: relative;
+		left: 78px;
+		top: -21px;
+	}
+	
+	.sidebarExcerpt {
+		position: relative;
+		left 0px;
+		top: -62px;
+		color: #244f4f;
+		font-size: 10pt;
+	}
+	
+	.featured {
+		background-color: #fff;
+		border: 3px solid #000;
+		margin: 10px;
+		margin-right: 3px;
+		width: 177px;
+		height: 350px;
+		padding: 2px;
+	}
+	
+	.eachArticle {
+		position: relative;
+		top: -18px;
+	}
+	
+	.articleExcerpt {
+		color: #244f4f;
+		font-size: 10pt;
+		position: relative;
+		top: -10px;
+	}
+	
+	.horzRule {
+		background-color: #471F37;
+		height: 2px;
+		width: 170px;
+		margin-left: 3px;
+		position: relative;
+		top: -10px;
+	}
+	
+	/* Article styling */
+	
+	.contentColumn {
+		width: 570px;
+		float: left;
+		margin-right: 15px;
+	}
+	
+	.contentContainer {
+		background-color: #FFF;
+		border: 3px solid #000;
+		margin: 10px;
+		width: 570px;
+		height: auto;
+		padding: 5px;
+	}
+	
+	.contentTitle {
+		font: 14px/1.4 'PT Sans Narrow', sans-serif;
+		background-color: #471F37;
+		color: #FFF;
+		width: 188px;
+		height: 26px;
+		text-align: right;
+		padding-right: 7px;
+		position: relative;
+		left: 377px;
+		top: -20px;
+		z-index: 20;
+	}
+	
+	.contentArtTitle {
+		font: 28px/1.8 'PT Sans Narrow', sans-serif;
+		padding-left: 4px;
+		
+	}
+	
+	.contentArtDate {
+		padding-left: 4px;
+		position: relative;
+		top: -10px;
+	}
+	
+	.contentImage {
+		float: left;
+		padding-right: 5px;
+		padding-bottom: 5px;
+		padding-left: 2px;
+		padding-top: 5px;
+	}
+	
+	.horzcontentRule {
+		background-color: #471F37;
+		height: 2px;
+		width: 562px;
+		margin-left: 3px;
+	}
+	
+	.contentExcerpt {
+		color: #244f4f;
+		font-size: 10pt;
+		margin-left: 3px;
+	}
+	
+	.middleColumn {
+		width: 260px;
+		margin-right: 20px;
+		margin-left: 15px;
+		float: left;
+	}
+	
+	.middleContainer {
+		background-color: #FFF;
+		border: 3px solid #000;
+		margin: 10px;
+		width: 264px;
+		height: 270px;
+		padding: 2px;
+	}
+	
+	.middleTitle {
+		font: 14px/1.4 'PT Sans Narrow', sans-serif;
+		background-color: #471F37;
+		color: #FFF;
+		width: 188px;
+		height: 26px;
+		text-align: right;
+		padding-right: 7px;
+		position: relative;
+		left: 72px;
+		top: -20px;
+		z-index: 20;
+	}
+	
+	.featuredImage {
+		position: relative;
+		left: 1px;
+		top: -45px;
+	}
+	
+	.middleArtTitle {
+		position: relative;
+		top: -45px;
+		padding-left: 4px;
+	}
+	
+	.middleArtDate {
+		position: relative;
+		top: -45px;
+		padding-left: 4px;
+	}
+	
+	.horzMidRule {
+		background-color: #471F37;
+		height: 2px;
+		width: 256px;
+		margin-left: 3px;
+		position: relative;
+		top: -45px;
+	}
+	
+	.middleExcerpt {
+		color: #244f4f;
+		font-size: 10pt;
+		margin-left: 3px;
+		position: relative;
+		top: -50px;
+	}
+	
+	#rightSidebar {
+		float: left;
+		margin-left: 12px;
+		margin-right: 0px;
+	}
+	
+	.rightContainer {
+		background-color: #FFF;
+		border: 3px solid #000;
+		margin: 10px;
+		margin-right: 0px;
+		width: 177px;
+		height: 269px;
+		padding: 2px;
+	}
+	
+	#raffle {
+		position: relative;
+		top: -30px;
+		left: 2px;
+	}
+	
+	.raffleExcerpt {
+		position: relative;
+		left: 2px;
+		top: -30px;
+		color: #244f4f;
+		font-size: 10pt;
+	}
+	
+	.studentTools {
+		width: 177px;
+		margin-left: 15px;
+		padding: 2px;
+	}
+	
+	.affiliateContainer {
+		background-color: #fff;
+		border: 3px solid #000;
+		margin-right: 0px;
+		margin-left: 10px;
+		margin-bottom: 20px;
+		width: 177px;
+		height: 150px;
+		padding: 2px;
+	}
+
+	.wisdomContainer {
+		background-color: #ffff99;
+		border: 3px solid #000;
+		margin-right: 0px;
+		margin-left: 10px;
+		margin-bottom: 20px;
+		width: 177px;
+		height: 300px;
+		padding: 2px;
+	}
+	
+	#footer {
+		background: #471F37;
+		filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#5f2c4b', endColorstr='#471F37'); /* for IE */
+		background-image: -webkit-gradient(linear, left top, left bottom, from(#5f2c4b), to(#471F37)); /* for webkit browsers */
+		background-image: -moz-linear-gradient(top,  #5f2c4b,  #471F37); /* for firefox 3.6+ */ 
+		float: left;
+		width: 1000px;
+		height: 100px;
+		text-align: center;
+		color: #fff;
+		
+	}
+	

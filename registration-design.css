@@ -1,0 +1,160 @@
+/*
+Author: Simeng Yang
+Project: ICS4U Final Project - Database-Driven Website with PHP & MySQL
+Item: CSS for studentadded.php and getstudentinfo.php
+Desc: Has formatting for containers (ID selector = #), classes (class selector = .)
+and specific HTML elements affected by a class (p.x for <p> elements etc.)
+Should be relatively straightforward; all selectors are identified explicitly in studentadded.php and getstudentinfo.php
+
+Optimized for viewing on Google Chrome.
+*/
+
+	html {
+    height: 100%;
+	}
+	
+	body {
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+	background: linear-gradient(to bottom, #fff, #cceeff) fixed; 
+	}
+
+	table.studentinfo {
+		font-family: verdana, arial, sans-serif;
+		font-size: 15px;
+		color: #333333;
+		border-collapse: collapse;
+	}
+ 
+	table.studentinfo tr:hover td {
+		background-color: #DFEBF1;
+	}
+	
+	.submitButton {
+    position: relative;
+    padding: 10px 40px;
+    margin: 0px 40px 40px 0px;
+    float: left;
+    border-radius: 10px;
+    font-family: 'Helvetica', cursive;
+    font-size: 14px;
+    color: #FFF;
+    text-decoration: none;  
+    background-color: #3498DB;
+    border-bottom: 5px solid #2980B9;
+    text-shadow: 0px -2px #2980B9;
+    /* Animation */
+    transition: all 0.1s;
+    -webkit-transition: all 0.1s;
+	}
+
+	.submitButton:hover, 
+	.submitButton:focus {
+	text-decoration: none;
+	color: #fff;
+	}
+
+	.submitButton:active {
+    transform: translate(0px,5px);
+    -webkit-transform: translate(0px,5px);
+    border-bottom: 1px solid;
+	}
+	
+	.deleteButton {
+	background-color:#EEE;
+	border-radius:0;
+	border:1px solid #999;
+	color:#666;
+	font-family:'Lucida Grande', Tahoma, Verdana, Arial, Sans-serif;
+	font-size:11px;
+	font-weight:700;
+	padding:2px 6px;
+	}
+	
+	.redirectButton {
+	background: #00A0D1;
+	background: -moz-linear-gradient(top,#00A0D1 0%,#008DB8 100%);
+	background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#00A0D1),color-stop(100%,#008DB8));
+	background: -webkit-linear-gradient(top,#00A0D1 0%,#008DB8 100%);
+	background: -o-linear-gradient(top,#00A0D1 0%,#008DB8 100%);
+	background: -ms-linear-gradient(top,#00A0D1 0%,#008DB8 100%);
+	background: linear-gradient(top,#00A0D1 0%,#008DB8 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00A0D1',endColorstr='#008DB8',GradientType=0);
+	padding:8px 20px;
+	color:#cfebf3;
+	font-family:'Helvetica Neue',sans-serif;
+	font-size:13px;
+	border-radius:40px;
+	-moz-border-radius:40px;
+	-webkit-border-radius:40px;
+	border:1px solid #095B7E
+	}
+
+	#studentWrapper {
+		width: 850px;
+		margin-left: auto;
+		margin-right: auto;
+		padding: 10px;
+		background-repeat: no-repeat;
+		background: linear-gradient(to bottom left, #fff, #cceeff) fixed; 
+	}
+	
+	#title {
+		text-align: center;
+		margin: -0.5em 0 0.5em 0;
+		font-weight: normal;
+		font-family: 'Nothing You Could Do', cursive;
+		font-size: 20px;
+		line-height: 42px;
+		text-transform: uppercase;
+	}
+	
+	@font-face {
+		font-family: 'Architects Daughter';
+		font-style: normal;
+		font-weight: 400;
+		src: local('Architects Daughter'), local('ArchitectsDaughter'), url(http://fonts.gstatic.com/s/architectsdaughter/v6/RXTgOOQ9AAtaVOHxx0IUBM3t7GjCYufj5TXV5VnA2p8.woff2) format('woff2');
+		unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+	}
+	
+	#message {
+		text-align: left;
+		margin: 0.5em 0 0.5em 0;
+		font-weight: normal;
+		font-family: 'Shadows Into Light', cursive;
+		font-size: 20px;
+		line-height: 20px;
+	}
+
+.inputs {
+    padding: 3px 5px;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+
+    text-shadow: 1px 1px 0 rgba(256, 256, 256, 1.0);
+    background: #FFF;
+    border: 1px solid #FFF;
+    border-radius: 5px;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.50);
+    -moz-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.50);
+    -webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.50);
+}
+
+.inputs:focus {
+    background: #DFE9EC;
+    color: #414848;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25);
+    -moz-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25);
+    -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25);
+    outline: 0;
+}
+
+.inputs:hover {
+    background: #DFE9EC;
+    color: #414848;
+}
+
+
+

@@ -1,0 +1,413 @@
+<!--
+Author: Simeng Yang
+Project: ICS4U Final Project - Database-Driven Website with PHP & MySQL
+Item: Main Interface / Front Page
+Desc: This section is the front page the user will access the other sites through. 
+Most links do not lead to the suggested targets, although they can be easily modified to achieve desired results. 
+-->
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+	<meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+	<link href='http://fonts.googleapis.com/css?family=PT+Sans+Narrow' rel='stylesheet' type='text/css' />
+	<link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+	
+	<link rel="StyleSheet" href="./css/website-design.css" />
+	<link rel="StyleSheet" href="./css/menu-design.css" />
+	<script type="text/javascript" src="./js/menu.js"></script>
+	
+	<title>Westmount Gazette</title>
+
+</head>
+
+<body>	
+	<!-- Note: <div id = ""> and </div> define container units with special formatting rules -->
+	<div id="pageWrapper">
+
+		<div id="header">
+
+		<!-- Upper section of page -->
+		<img src="./pictures/westmount.png" alt="Westmount" width="167px" height="145px" id="logo" />
+		<img src="./pictures/athletics.png" alt="Sports" width="500px" height="147px" id="logo" />
+		<h1 id="blogTitle">The Westmount Gazette</h1>
+		
+		<p id="blogSlogan"><b>Home of the Wildcats since 1961</b></p>
+		
+		<div id="searchBox"><input type="text" name="search" size="25" /><input type="submit" value="SEARCH" /></div>
+		
+		</div> <!-- End of header -->
+		
+		<div id="menu">
+	
+		<!-- This dropdown menu is created by using a table named "navbar". It has a default width of 1000 pixels -->
+  		<table class="navbar" width="1000">
+    	<tr>
+    
+    	<!-- Javascript functions will be triggered on both the onmouseover and onmouseout events. -->
+    
+      	<td class="menuNormal" onmouseover="expand(this);" 
+      	onmouseout="collapse(this);">
+        
+        <!-- Menu -->
+        
+        <p>Academics</p>
+        
+		<!-- Options -->
+        
+        <div class="menuNormal" >
+          <table class="menu" >
+            <tr><td class="menuNormal">
+              <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="menuitem">PAD 201</a>
+            </td></tr>
+            <tr><td class="menuNormal">
+              <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="menuitem">PAD 301</a>
+            </td></tr>
+            <tr><td class="menuNormal">
+              <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="menuitem">PLF4M</a>
+            </td></tr>
+            <tr><td class="menuNormal">
+              <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="menuitem">IDP4U</a>
+            </td></tr>
+          </table>
+        </div>
+      </td>
+      
+      <td class="menuNormal"  onmouseover="expand(this);" 
+      onmouseout="collapse(this);">
+        <p>Faculty and Staff</p>
+		
+		<!-- More options -->
+		
+        <div class="menuNormal" >
+          <table class="menu" >
+            <tr><td class="menuNormal">
+              <a href="http://ca.ratemyteachers.com/guagliano/95383-t" class="menuitem">Mr. P. Guagliano</a>
+            </td></tr>
+            <tr><td class="menuNormal">
+              <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="menuitem">Mrs. S. Fox</a>
+            </td></tr>
+            <tr><td class="menuNormal">
+              <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="menuitem">Mr. C. Lychak</a>
+            </td></tr>
+            <tr><td class="menuNormal">
+              <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="menuitem">Mrs. W. Sherwood</a>
+            </td></tr>
+            <tr><td class="menuNormal">
+              <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="menuitem">Mr. T. Pain</a>
+            </td></tr>
+            <tr><td class="menuNormal">
+              <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="menuitem">Mrs. L. Cope</a>
+            </td></tr>
+          </table>
+        </div>
+      </td>
+      
+      <td class="menuNormal"  onmouseover="expand(this);" 
+      onmouseout="collapse(this);">
+        <p>Athletics</p>
+		
+		<!-- Options -->
+		
+        <div class="menuNormal" >
+          <table class="menu" >
+            <tr><td class="menuNormal">
+              <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="menuitem">Fall Sports</a>
+            </td></tr>
+            <tr><td class="menuNormal">
+              <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="menuitem">Winter Sports</a>
+            </td></tr>
+            <tr><td class="menuNormal">
+              <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="menuitem">Spring Sports</a>
+            </td></tr>
+          </table>
+        </div>
+      </td>
+      
+      <td class="menuNormal"  onmouseover="expand(this);" 
+      onmouseout="collapse(this);">
+        <p>Community Outreach</p>
+		
+		<!-- Options -->
+		
+        <div class="menuNormal" >
+          <table class="menu" >
+            <tr><td class="menuNormal">
+              <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="menuitem">Partnerships</a>
+            </td></tr>
+            <tr><td class="menuNormal">
+              <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="menuitem">Parent Engagement</a>
+            </td></tr>
+            <tr><td class="menuNormal">
+              <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="menuitem">Student Involvement</a>
+            </td></tr>
+            <tr><td class="menuNormal">
+              <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="menuitem">Current Projects</a>
+            </td></tr>
+          </table>
+        </div>
+      </td>
+      
+      </tr>
+  	</table>
+	
+	</div> <!-- End of menu -->
+	
+	<div id="contentWrapper"> 
+	
+		<div id="leftSidebar">
+		
+			<div class="leftContainer">
+			
+				<div class="bannerTitle"><h4>ABOUT US</h4></div>
+				
+				<!-- "About us" -->
+				<p class="sidebarExcerpt"><img src="./pictures/wmt.png" alt="Wildcats" width="73px" height="73px" id="wildcats" /><br /><br />
+				Westmount Secondary School is located on the west mountain in Hamilton. 
+				Its unique and dynamic secondary school program of self-paced learning is available to all students of the Hamilton-Wentworth District School Board. 
+				Westmount aims to develop independence and decision-making skills in its students. </p>
+			
+			</div> <!-- End of leftContainer -->
+			
+			<!-- Student News -->
+			
+			<div class="featured">
+			
+				<div class="bannerTitle"><h4>Student News</h4></div>
+				
+				<div class="eachArticle">
+				
+					<div class="articleTitle"><b>Mr. Trink Forgets Car</b></div>
+					
+					<p class="articleExcerpt">Has to be carried home on the back of students. <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="clickForMore">More</a></p>
+					
+					<div class="horzRule"></div>
+				
+				</div> <!-- End of eachArticle -->
+				
+						<div class="eachArticle">
+				
+					<div class="articleTitle"><b>Mr French Forgets House</b></div>
+					
+					<p class="articleExcerpt">Forced to haunt the schools. <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="clickForMore">More</a></p>
+					
+					<div class="horzRule"></div>
+				
+				</div> <!-- End of eachArticle -->
+				
+						<div class="eachArticle">
+				
+					<div class="articleTitle"><b>Computers Exposed: All a Myth</b></div>
+					
+					<p class="articleExcerpt">They were all an elaborate hoax. <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="clickForMore">More</a></p>
+					
+					<div class="horzRule"></div>
+				
+				</div> <!-- End of eachArticle -->
+				
+						<div class="eachArticle">
+				
+					<div class="articleTitle"><b>Learning and Fun</b></div>
+					
+					<p class="articleExcerpt">A teacher rants on how these two things are mutually exclusive. <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="clickForMore">More</a></p>
+				
+				</div> <!-- End of eachArticle -->
+				
+			
+			</div> <!-- End of featured -->
+			
+			<!-- Student Information and Resources -->
+			
+			<div class="featured">
+			
+				<div class="bannerTitle"><h4>Information</h4></div>
+				
+				<div class="eachArticle">
+				
+					<div class="articleTitle"><b>View Database</b></div>
+					
+					<p class="articleExcerpt">View student information. <a href="./login.php" target="_blank" class="clickForMore">View</a></p>
+					<div class="horzRule"></div>
+				
+				</div> <!-- End of eachArticle -->
+				
+				<div class="eachArticle">
+				
+					<div class="articleTitle"><b>Add Info</b></div>
+					
+					<p class="articleExcerpt">Add student information. <a href="./addNewStudent.php" target="_blank" class="clickForMore">View</a></p>
+					<div class="horzRule"></div>
+				
+				</div> <!-- End of eachArticle -->
+				
+						<div class="eachArticle">
+				
+					<div class="articleTitle"><b>Courses</b></div>
+					
+					<p class="articleExcerpt">View course information. <a href="http://www.hwdsb.on.ca/westmount/files/2016/02/Outdoors-Promo.pdf" 
+					target="_blank" class="clickForMore">View</a></p>
+					
+					<div class="horzRule"></div>
+				
+				</div> <!-- End of eachArticle -->
+				
+						<div class="eachArticle">
+				
+					<div class="articleTitle"><b>Contact</b></div>
+					
+					<p class="articleExcerpt">Issues? This is where to go. <a href="http://www.hwdsb.on.ca/westmount/staff/" target="_blank" class="clickForMore">Contact</a></p>
+				
+				</div> <!-- End of eachArticle -->
+			
+			</div> <!-- End of featured -->
+		
+		</div> <!-- End of leftSidebar -->
+		
+		
+		<!-- First Featured Article -->
+		
+		<div class="contentColumn">
+		
+			<div class="contentContainer">
+
+				<div class="contentTitle"><h4>FEATURED ARTICLE</h4></div>
+				
+				<div class="contentArtTitle"><b>Mr. G has Got it Going On</b></div>
+				
+				<div class="contentArtDate"><b>POSTED BY Admin June 1, 2016 IN Student News | 4 COMMENTS</b></div>
+				
+				<div class="horzcontentRule"></div>
+				
+				<p class="contentExcerpt">
+				<img src="./pictures/eco.png" alt="Featured Image" width="150px" height="150px" class="contentImage" />
+				Mr. Guagliano is a partner with McMaster University Recreation and their Leadership Program.  
+				With them, he will help create active, ecologically aware and outdoors-experienced leaders. <br /><br />
+
+				Ministry courses are:
+
+				PAD2O1, 
+				PAD3O1, 
+				PLF4M and IDP.
+				<br /><br />
+
+				<br /><br />
+				
+				Students will develop the knowledge and skills they need to make healthy choices now and lead healthy, active lives in the future. 
+				Through participation in a wide range of physical activities, students develop knowledge and skills related to movement 
+				competence and personal fitness that provide a foundation for active living. 
+				Students also acquire an understanding of the factors and skills that contribute to healthy development 
+				and learn how their own well-being is affected by, and affects, the world around them. 
+				Students build their sense of self, learn to interact positively with others, 
+				and develop their ability to think critically and creatively. <br /><br /></p>
+			
+				<!-- Promotional Youtube video -->
+				<iframe width="550" height="300"
+				src="http://www.youtube.com/embed/c7Uq69HbHGo?autoplay=0">
+				</iframe>
+				
+			</div> <!-- End of contentContainer -->
+
+			<div class="contentContainer">
+			
+				<!-- Second featured article -->
+				<div class="contentTitle"><h4>FEATURED ARTICLE</h4></div>
+				
+				<div class="contentArtTitle"><b>School Cancelled due to Weekend</b></div>
+				
+				<div class="contentArtDate"><b>POSTED BY Admin May 31, 2016 IN Student News | 0 COMMENTS</b></div>
+				
+				<div class="horzcontentRule"></div>
+				
+				<p class="contentExcerpt"><img src="./pictures/weekend.png" alt="Featured Image" width="125px" height="100px" class="contentImage" />
+				In an unprecedented turn of events, school has been cancelled for the days between Friday and Monday.<br /><br />
+				Experts predict that normal school activities will continue on the following Monday.<br /><br /></p>
+			
+			</div> <!-- End of contentContainer -->
+		
+		</div> <!-- End of contentColumn -->
+		
+		
+		<!-- BEGINNING OF RIGHTSIDEBAR -->
+		
+		<div id="rightSidebar">
+		
+		<div class="rightContainer">
+		
+			<!-- Only a shell, without submission capability; idea to attract the attention of students -->
+			<div class="bannerTitle"><h4>Student Raffle!</h4></div>
+			
+			<p id="raffle">
+				<b>EMAIL</b><br />
+				<input type="text" name="email" size="20" /><br />
+				<b>NAME</b><br />
+				<input type="text" name="name" size="20" /><br />
+				<input type="submit" value="Submit" />
+			</p>
+			
+			<p class="raffleExcerpt">Chance to win big or go home!</p>
+		
+		</div> <!-- End of rightContainer -->
+		
+		<!-- Student "productivity tools" -->
+		
+		<div class="studentTools">
+		
+		<a href="http://hwdsb.on.ca"><img src="./pictures/hwdsb.jpg"
+		alt="HWDSB" width="40px" height="40px" border="0" /></a>
+ 
+ 		<a href="https://hwdsb.elearningontario.ca"><img src="./pictures/d2l.png"
+		alt="D2L" width="40px" height="40px" border="0" /></a>
+		
+		<a href="https://onedrive.live.com/about/en-us/"><img src="./pictures/onedrive.png"
+		alt="One Drive" width="40px" height="40px" border="0" /></a> 
+		
+		<a href="https://www.google.ca/drive/"><img src="./pictures/googledrive.png"
+		alt="One Drive" width="40px" height="40px" border="0" /></a> 
+					
+		</div> <!-- End of studentTools -->
+		
+		<!-- Partners of the Westmount program -->
+		<div class="affiliateContainer"> 
+		
+			<div class="bannerTitle"><h4>PARTNERS</h4></div>
+		
+		<IMG class="displayed" src="./pictures/ontario.png" alt="Ont" width="80px" height="40px"  class="sponsors" />
+		
+		</div><!-- End of affiliateContainer -->
+		
+		<div class="affiliateContainer"> 
+			
+			<div class="bannerTitle"><h4>PARTNERS</h4></div>
+
+		<IMG class="displayed" src="./pictures/canada.png" alt="Canada" width="80px" height="40px" class="sponsors" />
+		
+		</div><!-- End of affiliateContainer -->
+		
+		<!-- Container for the wisdom of Mr. Trink, through video -->
+		<div class="wisdomContainer"> 
+		
+			<div class="bannerTitle"><h4>Check It Out! </h4></div>
+		
+		<!-- Fullscreen enabled -->
+		<iframe width="170" height="250"
+		src="http://www.youtube.com/embed/4qDIbilVDn4?autoplay=0" allowfullscreen>
+		</iframe>
+		
+		</div><!-- End of wisdomContainer -->
+		
+		</div> <!-- End of rightSidebar -->
+	
+	</div> <!-- End of contentWrapper -->
+	
+	<!-- Assignment of credit -->
+	<div id="footer">
+		
+		&copy; 2016 ICS4U, S. Yang
+		
+	</div>
+	
+	</div> <!-- End of pageWrapper -->
+
+</body>
+</html>

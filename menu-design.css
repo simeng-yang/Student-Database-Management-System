@@ -1,0 +1,112 @@
+/*
+Author: Simeng Yang
+Project: ICS4U Final Project - Database-Driven Website with PHP & MySQL
+Item: CSS for website.HTML
+Desc: Used to format interactive dropdown menu
+
+Optimized for viewing on Google Chrome.
+*/
+
+div#menu{
+background-color: #471F37;
+position: relative;
+z-index: 200;
+}
+
+table.navbar
+{font: bold 16px/.5 'PT Sans Narrow', sans-serif;
+text-shadow: #000000 1px 1px 1px;
+margin: 0px;
+padding: 0px; 
+}
+
+table.menu
+{font-size: 10pt;
+margin: 0px;
+padding: 0px;
+}
+
+td.menuNormal
+{padding: 0px 0px 0px 5px;
+width: 160px;
+color: white;
+vertical-align: top; 
+background: #471F37;
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#5f2c4b', endColorstr='#471F37'); /* for IE */
+background-image: -webkit-gradient(linear, left top, left bottom, from(#5f2c4b), to(#471F37)); /* for webkit browsers */
+background-image: -moz-linear-gradient(top,  #5f2c4b,  #471F37); /* for firefox 3.6+ */ 
+border-right:1px solid #5f2c4b;
+border-left: 1px solid #471F37;
+}
+
+td.menuHover
+{padding: 0px 0px 0px 5px;
+width: 160px;
+color: #0bd4ff;
+vertical-align: top;
+background: #471F37;
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#5f2c4b', endColorstr='#471F37'); /* for IE */
+background-image: -webkit-gradient(linear, left top, left bottom, from(#5f2c4b), to(#471F37)); /* for webkit browsers */
+background-image: -moz-linear-gradient(top,  #5f2c4b,  #471F37); /* for firefox 3.6+ */ 
+border-right:1px solid #5f2c4b;
+border-left: 1px solid #471F37;
+}
+
+div.menuNormal
+{display: none;
+font: 12px/1.5 tahoma, sans-serif;
+position: static;
+}
+
+div.menuHover
+{
+font: 14px/1.5 tahoma, sans-serif;
+background: #471F37;
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#5f2c4b', endColorstr='#471F37'); /* for IE */
+background-image: -webkit-gradient(linear, left top, left bottom, from(#5f2c4b), to(#471F37)); /* for webkit browsers */
+background-image: -moz-linear-gradient(top,  #5f2c4b,  #471F37); /* for firefox 3.6+ */ 
+display: inline; 
+position: absolute; 
+}
+
+a.menuitem:link
+{text-decoration: none;
+color: white;
+padding: 2.5px;
+background: #471F37;
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#5f2c4b', endColorstr='#471F37'); /* for IE */
+background-image: -webkit-gradient(linear, left top, left bottom, from(#5f2c4b), to(#471F37)); /* for webkit browsers */
+background-image: -moz-linear-gradient(top,  #5f2c4b,  #471F37); /* for firefox 3.6+ */ 
+text-shadow: #000000 1px 1px 1px;
+display: block;
+} 
+
+a.menuitem:visited
+{text-decoration: none;
+color: white;
+padding: 2.5px;
+background: #471F37;
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#5f2c4b', endColorstr='#000f2e'); /* for IE */
+background-image: -webkit-gradient(linear, left top, left bottom, from(#5f2c4b), to(#000f2e)); /* for webkit browsers */
+background-image: -moz-linear-gradient(top,  #5f2c4b,  #471F37); /* for firefox 3.6+ */ 
+border-bottom: 1px solid #5f2c4b;
+border-top: 1px solid #471F37;
+display: block;} 
+
+a.menuitem:hover
+{text-decoration: none;
+color: #0bd4ff;
+padding: 2.5px;
+background: #471F37;
+border-bottom: 1px solid #5f2c4b;
+border-top: 1px solid #471F37;
+display: block;} 
+
+a.menuitem:active
+{text-decoration: none;
+color: #D8AFBE;
+padding: 2.5px;
+background: #5f2c4b;
+border-bottom: 1px solid #5f2c4b;
+border-top: 1px solid #471F37;
+display: block;}

@@ -1,0 +1,32 @@
+/*
+Author: Simeng Yang
+Project: ICS4U Final Project - Database-Driven Website with PHP & MySQL
+Item: CSS for messages (primarily error, success and info)
+Desc: Formats error, success and info messages used in studentadded.php and getstudentinfo.php
+
+Optimized for viewing on Google Chrome.
+*/
+
+@import url('//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css');
+ 
+.isa_info, .isa_success, .isa_warning, .isa_error {
+margin: 0px 0px;
+padding:12px;
+}
+.isa_info {
+    color: #00529B;
+}
+.isa_success {
+    color: #4F8A10;
+}
+.isa_warning {
+    color: #9F6000;
+}
+.isa_error {
+    color: #D8000C;
+}
+.isa_info i, .isa_success i, .isa_warning i, .isa_error i {
+    margin:10px 22px;
+    font-size:2em;
+    vertical-align:middle;
+}
