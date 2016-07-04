@@ -10,4 +10,4 @@ HTML file is the main website.
 There are 3 PHP files for adding a new student, fetching student data and logging into the database.
 The last PHP file makes the connection for the other files. 
 
-Optimized for display on Chrome.
+Optimized for display on Google Chrome.
