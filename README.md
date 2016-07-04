@@ -11,3 +11,5 @@ There are 3 PHP files for adding a new student, fetching student data and loggin
 The last PHP file makes the connection for the other files. 
 
 Optimized for display on Google Chrome.
+
+Also included is a sample MySQL database used for storing student records.
