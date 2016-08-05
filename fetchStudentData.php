@@ -86,6 +86,10 @@ $response = @mysqli_query($dbc, $query);
 
 // If the query executed properly, proceed
 if($response){
+//	Output # of student records
+$num_rows = mysqli_num_rows($response);
+echo "<p align='center'><font face = 'Architects Daughter' size='4pt'><i> * $num_rows student records fetched! </i></font></p>";
+
 //	Output column names
 echo '<table class = "studentinfo" align="center" cellpadding="8">
 
