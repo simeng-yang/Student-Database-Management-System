@@ -1,6 +1,6 @@
 <!--
 Author: Simeng Yang
-Project: ICS4U Final Project - Database-Driven Website with PHP & MySQL
+Project: Database-Driven Website with PHP & MySQL
 Item: Entry-page for adding a student
 Desc: Loads interface for user to allocate a student, with necessary information. 
 Has input filtration and sanitation. Processes user input and sends input to database.
