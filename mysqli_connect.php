@@ -1,6 +1,6 @@
 <!--
 Author: Simeng Yang
-Project: ICS4U Final Project - Database-Driven Website with PHP & MySQL
+Project: Database-Driven Website with PHP & MySQL
 Item: Database Connector
 Desc: Connects to database; required for adding students and accessing database
 -->
