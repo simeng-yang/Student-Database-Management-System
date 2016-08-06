@@ -1,6 +1,6 @@
 <!--
 Author: Simeng Yang
-Project: ICS4U Final Project - Database-Driven Website with PHP & MySQL
+Project: Database-Driven Website with PHP & MySQL
 Item: Student Information Database
 Desc: Gets student information from MySQL database and displays fields in the browser.
 
