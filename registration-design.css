@@ -4,7 +4,7 @@ Project: ICS4U Final Project - Database-Driven Website with PHP & MySQL
 Item: CSS for addNewStudent.php and fetchStudentData.php
 Desc: Has formatting for containers (ID selector = #), classes (class selector = .)
 and specific HTML elements affected by a class (p.x for <p> elements etc.)
-Should be relatively straightforward; all selectors are identified explicitly in studentadded.php and getstudentinfo.php
+Should be relatively straightforward; all selectors are identified explicitly in addNewStudent.php and fetchStudentData.php
 
 Optimized for viewing on Google Chrome.
 */
