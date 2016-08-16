@@ -2,7 +2,7 @@
 Students and administrators can add new student records. Administrators can securely retrieve and delete student records.
 
 Note: A demo is up an running at this site: http://projectdemos.tk/, with a couple very minor additions.
-I added a modal for the project description, accessible through the 'About Project' link at the bottom of the main page, as well as a favicon. 
+I added a modal for the project description, accessible through the 'About Project' link at the bottom of the main page, as well as a favicon. Everything else was virtually untouched and remained the same. 
 
 If you are downloading the files, some of the relative linking will not work. 
 In particular, the CSS files should be migrated to a CSS folder
