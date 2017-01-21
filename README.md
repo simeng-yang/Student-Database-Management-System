@@ -5,6 +5,7 @@ If you are downloading the files, some of the relative linking will not work.
 In particular, the CSS files should be migrated to a CSS folder
 and the JS file should be dumped into a separate JS folder 
 that are in the same master directory as the other PHP & HTML files. 
+Image files should be similarly migrated to a pictures folder.
 
 HTML file is the main website. 
 There are 3 PHP files for adding a new student, fetching student data and logging into the database.
