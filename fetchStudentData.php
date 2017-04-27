@@ -28,6 +28,7 @@ if (isset($_SESSION['credentialsEntered'])) {
 <link rel="StyleSheet" href="./css/registration-design.css" />
 <link rel="StyleSheet" href="./css/message-design.css" />
 <title>Fetch Student Data</title>
+<link rel="shortcut icon" type="image/png" href="./pictures/westmount.png"/>
 </head>
 <body>
 
