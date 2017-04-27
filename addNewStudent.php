@@ -17,6 +17,7 @@ Optimized for viewing on Google Chrome.
 <link rel="StyleSheet" href="./css/registration-design.css" />
 <link rel="StyleSheet" href="./css/message-design.css" />
 <title>Add New Student</title>
+<link rel="shortcut icon" type="image/png" href="./pictures/westmount.png"/>
 </head>
 <body>
 
