@@ -1,10 +1,3 @@
-/*
-Author: Simeng Yang
-Project: ICS4U Final Project - Database-Driven Website with PHP & MySQL
-Item: JavaScript for website.HTML menu
-Desc: Expand and collapse behaviors of menu on mouse hover/removal
-*/
-
 function expand(s)
 {
   var td = s;
