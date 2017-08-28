@@ -1,12 +1,3 @@
-<!--
-Author: Simeng Yang
-Project: ICS4U Final Project - Database-Driven Website with PHP & MySQL
-Item: Sign-in
-Desc: User enters credentials to access database
-
-Optimized for viewing on Google Chrome.
--->
-
 <?php
 //	Note: Sessions allow variables to be preserved over multiple pages.
 //	If session has not been started
