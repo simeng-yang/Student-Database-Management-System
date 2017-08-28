@@ -1,13 +1,3 @@
-<!--
-Author: Simeng Yang
-Project: Database-Driven Website with PHP & MySQL
-Item: Entry-page for adding a student
-Desc: Loads interface for user to allocate a student, with necessary information. 
-Has input filtration and sanitation. Processes user input and sends input to database.
-
-Optimized for viewing on Google Chrome.
--->
-
 <html>
 <head>
 <!-- Google fonts  -->
