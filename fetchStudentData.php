@@ -1,12 +1,3 @@
-<!--
-Author: Simeng Yang
-Project: Database-Driven Website with PHP & MySQL
-Item: Student Information Database
-Desc: Gets student information from MySQL database and displays fields in the browser.
-
-Optimized for viewing on Google Chrome. 
--->
-
 <?php
 //	Note: Sessions allow variables to be preserved over multiple pages.
 //	If session has not been started
