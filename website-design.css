@@ -1,12 +1,3 @@
-/*
-Author: Simeng Yang
-Project: ICS4U Final Project - Database-Driven Website with PHP & MySQL
-Item: CSS for website.HTML
-Desc: Has formatting for containers (ID selector = #), classes (class selector = .)
-and specific HTML elements affected by a class (p.x for <p> elements etc.)
-Should be relatively straightforward; all selectors are identified explicitly in website.HTML
-*/
-
 /* Non-article styling */
 
 	html {
