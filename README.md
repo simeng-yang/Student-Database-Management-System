@@ -1,10 +1,10 @@
 # Student-Database-Management-System
-Students and administrators can add new student records. Administrators can securely retrieve and delete student records.
+Students and administrators can add new student records. 
+Administrators can securely retrieve and delete student records.
 
-If you are downloading the files, some of the relative linking will not work. 
-In particular, the CSS files should be migrated to a CSS folder ("css")
-and the JS file should be dumped into a separate JS folder ("js")
-that are in the same master directory as the other PHP & HTML files. 
+The CSS files should be migrated to a CSS folder ("css")
+and the JS file should be dumped into a separate JS folder ("js"),
+which are both in the same master directory as the other PHP & HTML files. 
 Image files should be unzipped into the directory, from pictures.zip.
 
 website.HTML is the main site and serves as a linking tool to other files. 
