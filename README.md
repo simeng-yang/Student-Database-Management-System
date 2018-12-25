@@ -2,6 +2,8 @@
 Students and administrators can add new student records. 
 Administrators can securely retrieve and delete student records.
 
+![database](https://storage.googleapis.com/simengyang/database.jpg)
+
 The CSS files should be migrated to a CSS folder ("css")
 and the JS file should be dumped into a separate JS folder ("js"),
 which are both in the same master directory as the other PHP & HTML files. 
