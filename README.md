@@ -2,7 +2,7 @@
 Students and administrators can add new student records. 
 Administrators can securely retrieve and delete student records.
 
-![database](https://drive.google.com/file/d/1OuinMo9uHe-udgDaUuDhORQ8wbz6nwwV/view?usp=sharing)
+![database](https://i.ibb.co/jzx44rg/database.jpg)
 
 The CSS files should be migrated to a CSS folder ("css")
 and the JS file should be dumped into a separate JS folder ("js"),
